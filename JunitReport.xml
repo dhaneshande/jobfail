@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuites>
+<testsuite disabled="0" errors="0" failures="5" name="TableData" skipped="0" tests="6" time="430.500">
+<properties>
+<property name="capabilities" value="mixed"/>
+</properties>
+<testcase classname="Chrome.60.Windows 7" name="WorkBench Login with Dev URL" time="70.698">
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>When Verify loginpage title</stepname>
+<description>Check for The workbench title is available in the LoginPage </description>
+<result> The workbench title is available in the LoginPage and verified Successfully </result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="pass" status="pass">
+<stepname>Then Click Login button</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="pass" status="pass">
+<stepname>Then Click Next in GooglePage without entering Email</stepname>
+<description>Click on Next in Google signin page without entering Email</description>
+<result>Next button Clicked but User is unable to navigate to SSO Employee signin page</result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter wrong &lt;emailidd&gt; in the Google signin page</stepname>
+<description>Passing wrong EMAIL in Google SignIn page</description>
+<result>User is entered wrong Email in the Email field and not able to login to SSO employee signin page</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter wrong &lt;emailidd&gt; in the Google signin page</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="pass" status="pass">
+<stepname>Then Enter &lt;emailid&gt; in the Google signin page</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email entered succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="pass" status="pass">
+<stepname>Then Click Next button</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="9" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="10" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="11" result="pass" status="pass">
+<stepname>Then Click SignIn button</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is clicked succesfully</result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+<testcase classname="Chrome.60.Windows 7" name="WorkBench Menu Check" time="70.961">
+<failure message="Apps button is not clicking "/>
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Menu</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Menu</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email entered succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="pass" status="pass">
+<stepname>Then Verify homepage title</stepname>
+<description>Checking for Homepage Title is present</description>
+<result>successfully checked The workbench title is present in Homepage</result>
+<screenshot/>
+</step>
+<step iteration="1" number="9" result="fail" status="fail">
+<stepname>Then Click on Apps</stepname>
+<description>Clicking on Apps</description>
+<result>Apps button is not clicking </result>
+<screenshot/>
+</step>
+<step iteration="1" number="10" result="fail" status="fail">
+<stepname>Then Click on Hardware</stepname>
+<description>Clicking on Hardware</description>
+<result>Hardware button is not clicking </result>
+<screenshot/>
+</step>
+<step iteration="1" number="11" result="fail" status="fail">
+<stepname>Then Click on Answers</stepname>
+<description>Clicking on Answers</description>
+<result>Answers button is not clicking </result>
+<screenshot/>
+</step>
+<step iteration="1" number="12" result="fail" status="fail">
+<stepname>Then Click on Home</stepname>
+<description>Clicking on Home</description>
+<result>Home button is not clicking </result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+<testcase classname="Chrome.60.Windows 7" name="WorkBench Slides Checking" time="60.378">
+<failure message="Slides are not changed to Left successfully"/>
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Slides</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Slides</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For Slides</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email entered succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For Slides</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For Slides</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For Slides</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For Slides</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="fail" status="fail">
+<stepname>Then Verify Slides are displaying</stepname>
+<description>Check for Slides changing</description>
+<result>Slides are not changed to Left successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="9" result="fail" status="fail">
+<stepname>Then Verify Slides are displaying</stepname>
+<description>Checking for Slides after clicking Right arrow</description>
+<result>Slides are not changed to Right successfully</result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+<testcase classname="Chrome.60.Windows 7" name="Workbench MyDevices Functionality" time="94.400">
+<failure message="My device title not getting  and mismatched"/>
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage For MyDevices</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>Given Workbench Homepage For MyDevices</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For MyDevices</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email entered succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For MyDevices</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For MyDevices</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For MyDevices</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For MyDevices</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="pass" status="pass">
+<stepname>Then Click on MyDevices</stepname>
+<description>clicking MyDevices button </description>
+<result>MyDevices button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="9" result="fail" status="fail">
+<stepname>Then validate MyDevices title</stepname>
+<description>Not Getting My device tittle</description>
+<result>My device title not getting  and mismatched</result>
+<screenshot/>
+</step>
+<step iteration="1" number="10" result="fail" status="fail">
+<stepname>Then Click on VMware, Inc. - VMware Virtual Platform under My Devices</stepname>
+<description>Click on VMware accordion</description>
+<result>Unable to click on accordion VMware, Inc. - VMware Virtual Platform under my devices </result>
+<screenshot/>
+</step>
+<step iteration="1" number="11" result="fail" status="fail">
+<stepname>Then Click Claim Device link</stepname>
+<description>Checking for Claim Device Functionality</description>
+<result>Not Clicked Claim Device link </result>
+<screenshot/>
+</step>
+<step iteration="1" number="12" result="fail" status="fail">
+<stepname>Then Click Claim Device link</stepname>
+<description>Giving details in pop up for Claim Device Functionality</description>
+<result>UnAble to pass details and not submitted  </result>
+<screenshot/>
+</step>
+<step iteration="1" number="13" result="fail" status="fail">
+<stepname>Then Click on Submit under Claim devices without entering data</stepname>
+<description>Checking for Claim Device Functionality</description>
+<result>Not Clicked Claim Device link </result>
+<screenshot/>
+</step>
+<step iteration="1" number="14" result="pass" status="pass">
+<stepname>Then Click on Submit under Claim devices without entering data</stepname>
+<description>Clicking on submit without entering data</description>
+<result>Submitting unsuccessfull without entering data </result>
+<screenshot/>
+</step>
+<step iteration="1" number="15" result="fail" status="fail">
+<stepname>Then Click on Device details</stepname>
+<description>Click on Device Details</description>
+<result>Device Details button is not clicked </result>
+<screenshot/>
+</step>
+<step iteration="1" number="16" result="fail" status="fail">
+<stepname>Then Verify back button functionality</stepname>
+<description>Click on Back button</description>
+<result>Back button is not clicked </result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+<testcase classname="Chrome.60.Windows 7" name="Workbench Menu Below" time="83.850">
+<failure message="Not clicked on Home "/>
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Below Menu</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Below Menu</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For BelowMenu</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email entered succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="pass" status="pass">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For BelowMenu</stepname>
+<description>Click on Next button </description>
+<result>Next button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For BelowMenu</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For BelowMenu</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For BelowMenu</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is clicked succesfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="fail" status="fail">
+<stepname>Then Click on Home Button</stepname>
+<description>Click on Home</description>
+<result>Not clicked on Home </result>
+<screenshot/>
+</step>
+<step iteration="1" number="9" result="fail" status="fail">
+<stepname>Then Click on Get Apps</stepname>
+<description>Click on Get Apps</description>
+<result>Get Apps hyperlink is not clicked </result>
+<screenshot/>
+</step>
+<step iteration="1" number="10" result="fail" status="fail">
+<stepname>Then Click on Get Apps</stepname>
+<description>Click on Home</description>
+<result>Not clicked on Home </result>
+<screenshot/>
+</step>
+<step iteration="1" number="11" result="fail" status="fail">
+<stepname>Then Click on Get Hardware</stepname>
+<description>Click on Get Hardware</description>
+<result>Get Hardware hyperlink is not clicked </result>
+<screenshot/>
+</step>
+<step iteration="1" number="12" result="fail" status="fail">
+<stepname>Then Click on Get Hardware</stepname>
+<description>Click on Home</description>
+<result>Not clicked on Home </result>
+<screenshot/>
+</step>
+<step iteration="1" number="13" result="fail" status="fail">
+<stepname>Then Click on Get Answers</stepname>
+<description>Click on Get Answers</description>
+<result>Get Answers hyperlink is not clicked </result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+<testcase classname="Chrome.60.Windows 7" name="Workbench Logout" time="50.213">
+<failure message="Email is not entered "/>
+<properties>
+<property name="video" value="NA"/>
+</properties>
+<steps>
+<step iteration="1" number="1" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Logout</stepname>
+<description>Open Home Depot page</description>
+<result>Open Home Depot page is  displayed successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="2" result="pass" status="pass">
+<stepname>Given Workbench Homepage For Logout</stepname>
+<description>clicking Login button</description>
+<result>Login button clicked  successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="3" result="fail" status="fail">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For logout</stepname>
+<description>Passing the EMAIL in Google SignIn page</description>
+<result>Email is not entered </result>
+<screenshot/>
+</step>
+<step iteration="1" number="4" result="fail" status="fail">
+<stepname>When Enter &lt;emailid&gt; in the Google signin page and Click Next For logout</stepname>
+<description>Click on Next button </description>
+<result>Next button is not clicked </result>
+<screenshot/>
+</step>
+<step iteration="1" number="5" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For logout</stepname>
+<description>Entering the userId</description>
+<result>userId Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="6" result="pass" status="pass">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For logout</stepname>
+<description>Entering the password</description>
+<result>password Entered successfully</result>
+<screenshot/>
+</step>
+<step iteration="1" number="7" result="fail" status="fail">
+<stepname>Then Enter &lt;userid&gt; and &lt;password&gt; in SSO signin page and Click SignIn For logout</stepname>
+<description>Click on signIn button </description>
+<result>SignIn button is not clicked </result>
+<screenshot/>
+</step>
+<step iteration="1" number="8" result="pass" status="pass">
+<stepname>Then Then Click on LogOut</stepname>
+<description>Checking for LogOut</description>
+<result>User is logged out from the application </result>
+<screenshot/>
+</step>
+</steps>
+</testcase>
+</testsuite>
+</testsuites>
