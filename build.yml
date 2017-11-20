@@ -16,4 +16,6 @@ run:
     if grep 'status="fail"' JunitReport.xml ; then
     echo "found"
     docker ps
+    else
+    echo "not found"
     fi
