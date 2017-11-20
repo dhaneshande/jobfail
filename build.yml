@@ -15,5 +15,5 @@ run:
     ls -la
     if grep 'status="fail"' JunitReport.xml ; then
     echo "found"
-    exit(0)
+    docker ps
     fi
