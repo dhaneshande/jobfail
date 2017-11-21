@@ -15,7 +15,7 @@ run:
     ls -la
     if grep 'status="pass"' JunitReport.xml ; then
     echo "found"
-    exit(1)
+    exit("1")
     else
     echo "not found"
     fi
